@@ -8,7 +8,7 @@ RUN cd /tomochain \
     && make tomo \
     && chmod +x /tomochain/build/bin/tomo
 
-FROM alpine:latest
+FROM alpine:3
 
 WORKDIR /tomochain
 
